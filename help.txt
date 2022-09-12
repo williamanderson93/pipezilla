@@ -1,0 +1,23 @@
+new item, name it, then choose pipeline
+general tab 
+- description
+-git hub repo ( initiate repo if not done)
+- add jenkins file in repo
+-add project url (git hub repo link into jenkins)
+
+build trigger - github hook trigger
+poll scm blank
+
+pipeline section
+pipeline script from scm
+scm - git
+repo url
+add credential
+github username and pass
+change to main from master
+scriptpath set to Jenkinsfile
+
+github webhooks
+payload url is http://IP+port of jenkins/github-webhook/
+
+then build on jenkins
